@@ -3,9 +3,26 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+.featureRow {
+  margin-bottom: 64px;
+}
+
+.title {
+  color: white;
+}
+
+.primaryFeatures {
+  color: white;
+}
+
+.featureImage {
+  padding: 0 5%;
 }
