@@ -21,3 +21,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.subtitle {
+  font-size: 1.35rem;
+}
+
+.buttonMargin {
+  margin-right: 24px;
+}

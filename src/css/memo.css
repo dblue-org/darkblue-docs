@@ -1,0 +1,153 @@
+.memoContainer {
+    border-radius: 10px;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 20px;
+}
+
+.memoContainer .title-text {
+    font-weight: bold;
+    font-size: 1.05rem;
+    margin-left: 16px;
+    vertical-align: top;
+    display: inline-block;
+    line-height: 32px;
+}
+
+.memoContainer .bodyContainer {
+    margin-top: 10px;
+}
+
+.memo-theme-daybreak  {
+    border: 1px solid #69b1ff;
+    background-color: rgba(230, 244, 255, 0.3);
+}
+
+.memo-theme-daybreak .memo-title {
+    color: #4096ff
+}
+
+.memo-theme-dust {
+    border: 1px solid #ffa39e;
+    background-color: rgba(255, 241, 240, 0.2);
+}
+
+.memo-theme-dust .memo-title {
+    color: #ff4d4f
+}
+
+/** Volcano / 火山 **/
+.memo-theme-volcano {
+    border: 1px solid #ffbb96;
+    background-color: rgba(255, 242, 232, 0.3);
+}
+
+.memo-theme-volcano .memo-title {
+    color: #d4380d
+}
+
+/** Sunset Orange / 日暮 **/
+.memo-theme-sunset {
+    border: 1px solid #fa8c16;
+    background-color: rgba(255, 247, 230, 0.3);
+}
+
+.memo-theme-sunset .memo-title {
+    color: #ad4e00
+}
+
+/** Calendula Gold / 金盏花 **/
+.memo-theme-calendula {
+    border: 1px solid #faad14;
+    background-color: rgba(255, 251, 230, 0.5);
+}
+
+.memo-theme-calendula .memo-title {
+    color: #ad6800
+}
+
+/** Sunrise Yellow / 日出 **/
+.memo-theme-sunrise {
+    border: 1px solid #ad8b00;
+    background-color: rgba(254, 255, 230, 0.5);
+}
+
+.memo-theme-sunrise .memo-title {
+    color: #614700
+}
+
+/** Lime / 青柠 **/
+.memo-theme-lime {
+    border: 1px solid #a0d911;
+    background-color: rgba(252, 255, 230, 0.5);
+}
+
+.memo-theme-lime .memo-title {
+    color: #5b8c00
+}
+
+/** Polar Green / 极光绿 **/
+.memo-theme-polar {
+    border: 1px solid #b7eb8f;
+    background-color: rgba(246, 255, 237, 0.5);
+}
+
+.memo-theme-polar .memo-title {
+    color: #237804
+}
+
+
+/** Cyan / 明青 **/
+.memo-theme-cyan {
+    border: 1px solid #87e8de;
+    background-color: rgba(230, 255, 251, 0.5);
+}
+
+.memo-theme-cyan .memo-title {
+    color: #006d75
+}
+
+/** Geek Blue / 极客蓝 **/
+.memo-theme-geek {
+    border: 1px solid #2f54eb;
+    background-color: rgb(240, 245, 255);
+}
+
+.memo-theme-geek .memo-title {
+    color: #10239e
+}
+
+/** Golden Purple / 酱紫 **/
+.memo-theme-purple {
+    border: 1px solid #722ed1;
+    background-color: rgb(249, 240, 255);
+}
+
+.memo-theme-purple .memo-title {
+    color: #391085
+}
+
+/** Magenta / 法式洋红 **/
+.memo-theme-magenta {
+    border: 1px solid #f759ab;
+    background-color: rgb(255, 240, 246);
+}
+
+.memo-theme-magenta .memo-title {
+    color: #9e1068
+}
+
+.memo-theme-gray {
+    border: 1px solid #595959;
+    background-color: rgba(217, 217, 217, 0.4)
+}
+
+.memo-theme-dark {
+    border: 1px solid #434343;
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+.memo-theme-dark .memo-title {
+    color: white
+}
+

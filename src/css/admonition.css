@@ -1,0 +1,96 @@
+
+.theme-admonition-abstract {
+    --ifm-alert-background-color: rgba(78, 158, 239, 0.2);
+    --ifm-alert-border-color: rgb(78, 158, 239);
+}
+
+.theme-admonition-success {
+    --ifm-alert-background-color: #e6f6e6;
+    --ifm-alert-border-color: #009400;
+}
+
+.theme-admonition-question {
+    --ifm-alert-background-color: rgba(255, 252, 239, 0.2);
+    --ifm-alert-border-color: rgb(248, 236, 191);
+}
+
+.theme-admonition-bug {
+    --ifm-alert-background-color: #ffebec;
+    --ifm-alert-background-color-highlight: rgba(250, 56, 62, .15);
+    --ifm-alert-foreground-color: var(--ifm-color-danger-contrast-foreground);
+    --ifm-alert-border-color: #e13238;
+}
+
+.theme-admonition-example {
+    --ifm-alert-background-color: rgba(255, 255, 255, 0.2);
+    --ifm-alert-border-color: rgba(78, 158, 239, 0.2);
+}
+
+.theme-admonition-warning {
+    --ifm-alert-background-color: var(--ifm-color-warning-contrast-background);
+    --ifm-alert-background-color-highlight: rgba(255, 186, 0, .15);
+    --ifm-alert-foreground-color: var(--ifm-color-warning-contrast-foreground);
+    --ifm-alert-border-color: var(--ifm-color-warning-dark);
+}
+
+.alert--block {
+    border: 1px solid #aa0cd6;
+    background-color: rgba(243, 209, 240, 0.15);
+    margin-bottom: 1em;
+}
+
+.alert--block p:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.admonition-block-title {
+    font-weight: bold;
+    font-size: 1.20rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.alert--solution {
+    border: 1px solid #4E9EEF;
+    background-color: rgba(201,213,225,0.1);
+    margin-bottom: 1em;
+}
+
+.alert--solution p:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.admonition-solution-title {
+    color: #0d7def;
+    font-size: 1.2rem;
+    font-family: 'Georgia','Times New Roman','宋体','Lora', 'optima', 'Arial', 'Helvetica',sans-serif;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.math-inference {
+
+}
+
+.math-inference dt::before {
+    content: "Inf";
+    font-weight: normal;
+    font-family: KaTeX_Math;
+    color: #00a9ff;
+    padding-right: 14px;
+}
+
+.math-theorem {
+
+}
+
+.math-theorem dt::before {
+    content: "Thm";
+    font-weight: normal;
+    font-family: KaTeX_Math;
+    color: #00a9ff;
+    padding-right: 7px;
+}
