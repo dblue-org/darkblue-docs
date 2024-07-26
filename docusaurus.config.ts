@@ -31,9 +31,9 @@ const remarkJsConfig = {
 }
 
 const config: Config = {
-    title: 'Dark Blue',
+    title: '深蓝管理系统文档',
     tagline: 'Dark Blue（深蓝）是一个开源的脚手架项目。提供了一系列的基础功能，包括用户管理、权限管理、日志查看、字典管理、系统参数管理等功能，帮助开发者快速构建应用。',
-    favicon: 'img/logo-blue.svg',
+    favicon: 'img/logo-red.svg',
 
     // Set the production url of your site here
     url: 'https://dblug.org',

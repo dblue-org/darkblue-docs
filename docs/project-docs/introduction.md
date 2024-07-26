@@ -17,6 +17,12 @@ tags: [文档, 后端]
 
 演示地址：https://angular.darkblue.dblue.org/
 
+用户名密码：subadmin/123456
+
+:::warning
+为避免演示环境数据混乱，不提供超级管理员账户。子管理员账户可以使用系统中的大部分功能，无法对为系统提供支撑的基础数据进行修改。如果要体验系统的所有功能，请本地部署后体验。
+:::
+
 ## 项目地址
 
 - Github：https://github.com/orgs/dblue-org/repositories

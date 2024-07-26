@@ -40,16 +40,37 @@ darkblue-parent 是后端项目，darkblue-web-ui-ng 是前端项目。
 
 ### 数据库初始化
 
-数据库脚本在 `darkblue-parent/darkblue-application/src/main/resources/init.sql`。
+数据库脚本在 `darkblue-parent/darkblue-application/src/main/resources/sql` 目录下。
+
+- `init_ddl.sql`：数据库表结构初始化脚本
+- `init_data.sql`：数据库初始化数据
+- `change.sql`：数据库变更
+
+执行顺序如下：`init_ddl.sql` $\to$ `init_data.sql` $\to$ `change.sql`
 
 配置好之后需要在 `application-dev.yaml` 中设置数据库信息。
 
-```yaml
+```yaml title="application-dev.yaml"
 spring:
   datasource:
-    url: jdbc:mysql://192.168.7.133:3306/darkblue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    url: jdbc:mysql://127.0.0.1:3306/darkblue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
     username: root
     password: 123456
+```
+### Redis
+
+本项目依赖于Redis，使用 Redis 缓存了用户的登录信息（Session），和一部分基础信息。对 Redis 版本没有要求，建议使用 6.0 以上版本。
+
+安装完 Redis 后需要修改 Redis 配置
+
+```yaml title="application-dev.yaml"
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: 123456
+      database: 15
 ```
 
 ### 启动后端
@@ -97,4 +118,5 @@ npm run start
 ![登录页面](https://jaune162.oss-cn-hangzhou.aliyuncs.com/images/blog/20240717/01866b61013e43cb85d5b1ce3434055d.png)
 
 
-管理员账户默认用户名密码为：admin/123456
+管理员账户默认用户名密码为：`admin/123456`
+
